@@ -1,5 +1,5 @@
 # model_quantization
-Quantizing TinyLlama to 8-bit
+
 ## TinyLlama 8-bit Quantization Guide
 
 ## 📌 Introduction
