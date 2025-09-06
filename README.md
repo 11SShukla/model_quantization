@@ -19,16 +19,16 @@ This guide explains:
 ##  Why Quantization?
 Quantization provides several key benefits:
 
-- ** Memory Efficiency**  
+-  Memory Efficiency  
   16-bit models require more VRAM/RAM. Converting to 8-bit halves the memory requirements, allowing larger models to fit on smaller GPUs.
 
-- ** Faster Inference**  
+-  Faster Inference  
   8-bit models often have faster inference since they load fewer bytes per weight.
 
-- ** Accessibility**  
+-  Accessibility  
   People with lower-end GPUs (e.g., 4GB/6GB VRAM) can run models that otherwise wouldn’t fit.
 
-- ** Cost Efficiency**  
+- Cost Efficiency  
   Lower memory usage = cheaper cloud instances.
 
 **Tradeoff:** Quantization introduces *tiny precision loss*, but for most inference/chat use cases, the difference is negligible.
