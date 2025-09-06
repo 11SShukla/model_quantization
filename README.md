@@ -35,7 +35,7 @@ Quantization provides several key benefits:
 
 ---
 
-##  Setup and Requirements
+##  Requirements
 
 ###  Install Dependencies
 Make sure you have Python 3.9+ and install:
